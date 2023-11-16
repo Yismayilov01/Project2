@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    background-color: rgba(240, 248, 255, 0.864);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(122, 122, 122);
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 4);
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.name {
+    width: 450px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.email {
+    width: 450px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.message {
+    width: 450px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: rgba(122, 248, 91, 0.953);
+    color: #fff;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+   transition: 3ms ease-in-out;
+}
+
+.submit:hover {
+    background-color: #24ac29;
+}
